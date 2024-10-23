@@ -1,5 +1,11 @@
-# Monitor-an-Apache-Web-Server-using-Ops-Agent
+# Monitor an Apache Web Server using Ops Agent || [GSP1108](https://www.cloudskillsboost.google/focuses/56596?parent=catalog) ||
 
+# Follow the instructions
+
+
+
+### Run the following Commands in CloudShell
+```
 
 gcloud auth list
 
@@ -124,4 +130,9 @@ EOF_CP
 
 
 gcloud alpha monitoring policies create --policy-from-file=stopped-vm-alert-policy.json
+
+
+```
+
+### Congratulations 🎉 for completing the Lab !😄
 
